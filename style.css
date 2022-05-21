@@ -115,9 +115,14 @@ a:hover {
 #search:hover {
   box-shadow: 1px 1px 5px grey;
 }
+
 #search:focus {
   outline: 0;
   box-shadow: 1px 1px 5px grey;
+}
+
+#search:focus::placeholder {
+  color: transparent;
 }
 
 #flexbox {
@@ -169,26 +174,31 @@ a:hover {
   justify-self: center;
   align-self: center;
 }
+
 #business {
   grid-area: business;
   justify-self: center;
   align-self: center;
 }
+
 #hsw {
   grid-area: hsw;
   justify-self: center;
   align-self: center;
 }
+
 #privacy {
   grid-area: privacy;
   justify-self: center;
   align-self: center;
 }
+
 #terms {
   grid-area: terms;
   justify-self: center;
   align-self: center;
 }
+
 #settings {
   grid-area: settings;
   justify-self: center;
